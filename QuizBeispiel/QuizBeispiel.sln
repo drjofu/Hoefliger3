@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizBeispiel", "QuizBeispiel\QuizBeispiel.csproj", "{F352CFD1-1DAD-46B5-BBA8-1DF6BE74EB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpieleLib", "SpieleLib\SpieleLib.csproj", "{D85D1C5D-38D1-4BFF-A405-D170115715AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F352CFD1-1DAD-46B5-BBA8-1DF6BE74EB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F352CFD1-1DAD-46B5-BBA8-1DF6BE74EB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F352CFD1-1DAD-46B5-BBA8-1DF6BE74EB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F352CFD1-1DAD-46B5-BBA8-1DF6BE74EB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85D1C5D-38D1-4BFF-A405-D170115715AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85D1C5D-38D1-4BFF-A405-D170115715AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85D1C5D-38D1-4BFF-A405-D170115715AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85D1C5D-38D1-4BFF-A405-D170115715AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91C946FB-CA4A-4975-B7D3-6C503888AED5}
+	EndGlobalSection
+EndGlobal
