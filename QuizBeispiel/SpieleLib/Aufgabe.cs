@@ -6,7 +6,7 @@
     public int Schwierigkeitsgrad { get; set; }
     public string Frage { get; set; }
     public string[] Antworten { get; set; } = new string[4];
-    public char Lösung { get; set; }
+    internal char Lösung { get; set; }
 
     public Aufgabe(string zeile)
     {

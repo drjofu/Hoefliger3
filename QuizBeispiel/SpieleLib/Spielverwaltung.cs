@@ -14,7 +14,7 @@
 
     public Aufgabe AktuelleAufgabe { get; set; }
     public bool IstBeendet { get; set; }
-    public int Gewinn { get; set; }
+    public int Gewinn { get; private set; }
 
     public Spielverwaltung(string pfad)
     {
