@@ -17,7 +17,7 @@ while(!spielverwaltung.IstBeendet)
   }
 
   Console.WriteLine("Bitte A, B, C oder D antworten oder Q zum Aufgeben");
-  Console.WriteLine($"Tipp: {aufgabe.Lösung}");
+  //Console.WriteLine($"Tipp: {aufgabe.Lösung}");
 
   string antwort = Console.ReadLine();
   spielverwaltung.AntwortPrüfen(antwort);
