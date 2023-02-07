@@ -13,7 +13,7 @@
     };
 
     public Aufgabe AktuelleAufgabe { get; set; }
-    public bool IstBeendet { get; set; }
+    public bool IstBeendet { get; private set; }
     public int Gewinn { get; private set; }
 
     public Spielverwaltung(string pfad)
@@ -51,8 +51,8 @@
 
       if (antwort.ToUpper() == "Q")
       {
-        IstBeendet= true;
-        Gewinn = gewinnstufen[aktuellerSchwierigkeitsgrad-1];
+        IstBeendet = true;
+        Gewinn = gewinnstufen[aktuellerSchwierigkeitsgrad - 1];
         return;
       }
 
